@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form div{
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+
+    <div class="task-1">
+        <h3>1. Покажите свое имя и группу с помощью JS </h3>
+        <button class="btn-1">Показать</button>
+        <p class="result-1" style="color: darkred;"></p>
+    </div>
+
+    <div class="task-2">
+        <h3>2. Отобразите текущий день и время в следующем формате.<br>
+            Пример вывода: Год: текущий год Сегодня: понедельник (текущий день недели)
+            Дата: текущий день Месяц: текущий месяц Текущее время: текущее время (00:00:00)</h3>
+            <button class="btn-2"> Показать время </button>
+            <p class="result-2"></p>
+
+    </div>
+
+    <div class="task-3">
+        <h3> 3. подсчитайте количество дней, оставшихся до окончания университета Пример вывода:
+            До свободы осталось 349 дней!</h3>
+            <input class="input-date" type="text" placeholder="ДД.ММ.ГГ" style="width: 250px;">
+            <button class="btn-3">Показать</button>
+            <div class="result-3"></div>
+
+    </div>
+
+    <div class="task-4">
+        <h3>4. вычислить умножение и деление двух чисел (ввод от пользователя).
+            Пример вывода: 1-е число: 12 2-е число: 10 Умножить Diide Результат: 120 Ваш сайт должен работать.
+            Пришлите мне ссылку на github с файлом html и js.</h3>
+
+            <form>
+                <div>
+                    <label for="num1">
+                        1 st Number
+                        <input type="text" id="num1">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="num2">
+                        1 st Number
+                        <input type="text" id="num2">
+                    </label>
+                </div>
+
+                <div>
+                    <button class="multiply">Multiply</button>
+                    <button class="divide">Divide</button>
+                </div>
+            </form>
+            <div class="result-4" style="margin-top: 10px;">
+                The Result Is: <span></span>
+            </div>
+
+    </div>
+
+
+
+    <script src="script/index.js"></script>
+</body>
+
+</html>
